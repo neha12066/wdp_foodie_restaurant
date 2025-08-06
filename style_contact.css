@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  
+}
+
+body {
+  /* font-family: 'Segoe UI', sans-serif; */
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  /* background-image: url(images/bg-image.png)   ; */
+}
+
+/* Header */
+header {
+  background-color: #8B0000;
+  color: #fff;
+  padding: 20px;
+  margin-left:0px;
+  display: flex;
+  justify-content: space-between;
+ /* text-align: center; */
+ position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.logo {
+  width: 130px;
+  height: 50px;
+  border-radius: 05px;
+}
+
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  
+  
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+/* header {
+  background-color: #8B0000;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+  
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+} */
+
+/* Contact Section */
+.contact-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #8B0000;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #a50000;
+}
+
+/* Footer */
+footer {
+  background-color: #a02b2b;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+#main{
+  text-align: left;
+  font-size: x-large;
+}
